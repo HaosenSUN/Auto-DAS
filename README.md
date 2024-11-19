@@ -1,4 +1,4 @@
-# Auto-DAS: Automated Proxy Discovery for Training-free Distillation-aware Architecture Search
+# Auto-DAS
 
 ## Introduction
 
