@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the official implementation of the paper "Auto-DAS: Automated Proxy Discovery for Training-free Distillation-aware Architecture Search" 
+This is the official implementation of the paper "Auto-DAS: Automated Proxy Discovery for Training-free Distillation-aware Architecture Search" (ECCV 2024) 
 
 ## Requirements
 - Python 3.6
@@ -72,4 +72,15 @@ Evaluate the student model by running the following command:
 ```
 python exps/eval_student.py --data_path ./data/imagenet/ --save_path ./exps/student/ --teacher_path ./exps/teacher/ --arch resnet50 --batch_size 256 --num_workers 8 --gpu 0
 ```
+### BibTeX
+<pre>
+@inproceedings{sun2025auto,
+  title={Auto-DAS: Automated Proxy Discovery for Training-Free Distillation-Aware Architecture Search},
+  author={Sun, Haosen and Li, Lujun and Dong, Peijie and Wei, Zimian and Shao, Shitong},
+  booktitle={European Conference on Computer Vision},
+  pages={56--73},
+  year={2025},
+  organization={Springer}
+}
+</pre>
 
